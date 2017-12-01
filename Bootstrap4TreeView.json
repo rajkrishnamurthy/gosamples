@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "text": "Odoo ERP Application",
+    "population": null,
+    "flagUrl": null,
+    "checked": false,
+    "children": 
+      [
+        {
+          "id": 2,
+          "text": "vm-qa-odoo-webserver1",
+          "population": null,
+          "flagUrl": null,
+          "checked": false,
+          "children": 
+            [
+              {
+                "id": 3,
+                "text": "httpd_service",
+                "population": null, 
+                "flagUrl": null,
+                "checked": false,
+                "children":[]
+              }
+            ]
+        },
+        {
+          "id": 9,
+          "text": "vm-qa-odoo-appserver2",
+          "population": null,
+          "flagUrl": null,
+          "checked": false,
+          "children":[]
+        },
+       {
+          "id": 10,
+          "text": "vm-qa-odoo-mysql3",
+          "population": null,
+          "flagUrl": null,
+          "checked": false,
+          "children":[]
+        }
+    ]
+  },
+  
+  {
+    "id": 4,
+    "text": "ELK Dashboard",
+    "population": null,
+    "flagUrl": null,
+    "checked": false,
+    "children": 
+      [
+        {
+          "id": 5,
+          "text": "vm-dev-elkstack1",
+          "population": null,
+          "flagUrl": null,
+          "checked": false,
+          "children": 
+            [
+              {
+                "id": 6,
+                "text": "elastic_service",
+                "population": null, 
+                "flagUrl": null,
+                "checked": false,
+                "children":[]
+              },
+              {
+                "id": 7,
+                "text": "logstash_service",
+                "population": null, 
+                "flagUrl": null,
+                "checked": false,
+                "children":[]
+              },
+              {
+                "id": 8,
+                "text": "kibana_service",
+                "population": null, 
+                "flagUrl": null,
+                "checked": false,
+                "children":[]
+              }    
+            ]
+        }
+      ]
+  },
+     
+
+  
+  {
+    "id": 11,
+    "text": "Uncategorized Apps",
+    "population": null,
+    "flagUrl": null,
+    "checked": false,
+    "children": [
+      {
+        "id": 12,
+        "text": "vm-prod-ecomm-webserver1",
+        "population": null,
+        "flagUrl": null,
+        "checked": false,
+        "children": []
+     },
+ 
+     {
+        "id": 13,
+        "text": "vm-prod-ecomm-appserver2",
+        "population": null,
+        "flagUrl": null,
+        "checked": false,
+        "children":[]
+     },
+
+     {
+        "id": 14,
+        "text": "vm-prod-ecomm-appserver3",
+        "population": null,
+        "flagUrl": null,
+        "checked": false,
+        "children":[]
+     }
+     
+    ]
+  }
+  
+]
+
